@@ -1,0 +1,67 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:+'
+
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // compile 'com.google.android.gms:play-services:4.0.30'
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    // You must install or update the Google Repository through the SDK manager to use this dependency.
+    // The Google Repository (separate from the corresponding library) can be found in the Extras category.
+    // 
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

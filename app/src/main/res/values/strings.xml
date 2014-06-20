@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DOCAPP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_doctor_home_page">DoctorHomePage</string>
+    <string name="title_activity_enter_name">EnterName</string>
+    <string name="title_activity_enter_email">EnterEmail</string>
+    <string name="title_activity_enter_user_type">EnterUserType</string>
+    <string name="title_activity_enter_password">EnterPassword</string>
+    <string name="title_activity_doctor_home">DoctorHome</string>
+    <string name="title_activity_patient_home">PatientHome</string>
+    <string name="title_activity_patient_home2">Patient_home2</string>
+    <string name="title_activity_display_doc">DisplayDoc</string>
+    <string name="title_activity_make_appointment">MakeAppointment</string>
+    <string name="title_activity_display_patient_appointments">DisplayPatientAppointments</string>
+    <string name="title_activity_patient_prescriptions">PatientPrescriptions</string>
+    <string name="title_activity_display_patient">DisplayPatient</string>
+    <string name="title_activity_write_presciption">WritePresciption</string>
+    <string name="title_activity_enter_speciality">EnterSpeciality</string>
+    <string name="title_activity_enter_hospital_det">EnterHospitalDet</string>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.docapp.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.docapp.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterEmail"
+            android:label="@string/title_activity_enter_email" >
+            android:parentActivityName="com.example.docapp.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.docapp.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterName"
+            android:label="@string/title_activity_enter_name" >
+            android:parentActivityName="com.example.docapp.app.EnterEmail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.docapp.app.EnterEmail" />
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterUserType"
+            android:label="@string/title_activity_enter_user_type" >
+            android:parentActivityName="com.example.docapp.app.EnterName" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.docapp.app.EnterName" />
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterPassword"
+            android:label="@string/title_activity_enter_password" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.DoctorHome"
+            android:label="@string/title_activity_doctor_home" >
+        </activity>
+        <activity
+            android:name="com.mycompany.myapp.PatientHome"
+            android:label="@string/title_activity_patient_home" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.PatientHome"
+            android:label="@string/title_activity_patient_home" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.Patient_home2"
+            android:label="@string/title_activity_patient_home2" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.DisplayDoc"
+            android:label="@string/title_activity_display_doc" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.MakeAppointment"
+            android:label="@string/title_activity_make_appointment" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.DisplayPatientAppointments"
+            android:label="@string/title_activity_display_patient_appointments" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.PatientPrescriptions"
+            android:label="@string/title_activity_patient_prescriptions" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.DisplayPatient"
+            android:label="@string/title_activity_display_patient" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.WritePresciption"
+            android:label="@string/title_activity_write_presciption" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterSpeciality"
+            android:label="@string/title_activity_enter_speciality" >
+        </activity>
+        <activity
+            android:name="com.example.docapp.app.EnterHospitalDet"
+            android:label="@string/title_activity_enter_hospital_det" >
+        </activity>
+    </application>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>
